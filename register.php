@@ -46,12 +46,6 @@
        $nisn   = $conn->real_escape_string($_POST['nisn']);
        $jenjang = $conn->real_escape_string($_POST['jenjang']);
        $grade  = $conn->real_escape_string($_POST['grade']);
-       $kelas  = $conn->real_escape_string($_POST['kelas']);
-       $kelas_paud  = $conn->real_escape_string($_POST['kelas_paud']);
-       $kelas_tk  = $conn->real_escape_string($_POST['kelas_tk']);
-       $kelas_sd  = $conn->real_escape_string($_POST['kelas_sd']);
-       $kelas_smp  = $conn->real_escape_string($_POST['kelas_smp']);
-       $kelas_sma  = $conn->real_escape_string($_POST['kelas_sma']);
        $user   = $conn->real_escape_string($_POST['username']);
        $email  = $conn->real_escape_string($_POST['email']);
        $pass   = $conn->real_escape_string($_POST['password']);
